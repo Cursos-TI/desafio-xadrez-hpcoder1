@@ -33,10 +33,10 @@ int main() {
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
     x = 1;
     printf("Movimentação da Rainha:\n");
-    while (x <= movRainha){
+    do {
         printf("Esquerda\n");
         x++;
-    }
+    } while (x <= movRainha);
     printf("\n");
 
 
